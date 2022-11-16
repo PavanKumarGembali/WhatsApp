@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<style>
+		body {
+  		background-color: #fff;
+		}
+		#wrapper {
+  		width: 500px;
+  		overflow: hidden;
+  		margin: 32px auto;
+		border-color:black;
+  		padding: 10px;
+		}
+		.main-content {
+		width: 350px;
+		height: 85%;
+		margin: 10px auto;
+		background-color: #eee;
+		border-style : solid;
+		border-width:8px;
+		border: 2px solid: black;
+		border-color : black;
+		border-radius : 20px;		
+		padding: 40px 50px;
+		}
+		.sub-content {
+		width: 250px;
+		height: 75%;
+		margin: 100px auto;
+		margin-bottom: 10px;
+		background-color: #4FB88D;
+		border: 2px solid #e6e6e6;
+		border-radius : 20px;
+		padding: 20px 30px;
+		}
+		.text-content{
+		width: 285px;
+		height: 180px;
+		margin-top: 70px;
+		margin-right: 2000px; 
+		margin-bottom: 20px;
+		background-color: #fff;
+		border: 2px solid #e6e6e6;
+		border-radius : 10px;
+		}
+		.header {
+		margin-bottom: 1px;
+		}
+		.input-1 {
+		width: 70%;
+		margin-bottom: 6px;
+		padding: 8px 12px;
+		border: 1px solid #dbdbdb;
+		box-sizing: border-box;
+		border-radius: 3px;
+		}
+		.btn {
+		width: 60%;
+		background-color: #5AB84F;
+		border: 1px solid #3897f0;
+		padding: 5px 12px;
+		color: #fff;
+		font-weight: bold;
+		cursor: pointer;
+		border-radius: 3px;
+		}
+		img{
+		width:30%;
+		}
+		h4{
+		color: white;
+		style : Bold;
+		}
+		p{
+		color:blue;
+		}	
+	</style>	
+	<body>
+	<div id="wrapper">
+		<div class="main-content">
+			<div class = "sub-content">
+    				<div>
+    					<center><img src="whatsappAppImages/Logo.jpg"/></center>
+						<div><center><h4>Welcome to WhatsApp!</h4></center></div>
+							<div class="text-content" style = "position:relative;right:50px;">
+								<div><p style="color:#4FB88D;font-size:20px ;text-align:center;"><b>1.Terms and Privacy</b></p>
+								</div>
+								<div><p style="text-align: center;color: black"> Tap "Agree and Continue" to accept the </p><p style="color:blue;text-align: center"> WhatsApp Terms of Service and Privacy Policy </p> 
+								</div>
+								<form action="Loginpage.jsp"><center><button class="btn ">Agree and Continue </button></center></form>
+						</div>
+    				</div>
+    		</div>
+    	</div>
+	</div>		
+	</body>
+</html>
